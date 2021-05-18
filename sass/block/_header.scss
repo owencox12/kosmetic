@@ -1,0 +1,124 @@
+.header {
+    min-height: 65px;
+    padding: 25px 0 27px 0;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 65px;
+        background: #fff;
+        z-index: 1000;
+        padding: 25px 30px 27px 30px;
+    }
+    .navigation-left {
+        .navigation__list {
+            list-style-type: none;
+            display: flex;
+            &_li {
+                margin: 0 15px;
+            }
+        }
+        .navigation__link {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 1.67px;
+
+            color: rgba(0, 0, 0, 0.9);
+            transition: all .2s;
+            &:hover {
+                color: rgb(46, 94, 236);
+                text-decoration: none;
+            }
+        }
+    }
+    .navigation-right {
+        .navigation__list {
+            list-style-type: none;
+            display: flex;
+            &_li {
+                margin: 0 15px;
+            }
+        }
+        .navigation__link {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 1.67px;
+
+            color: rgba(0, 0, 0, 0.9);
+            transition: all .2s;
+            &:hover {
+                color: rgb(46, 94, 236);
+                text-decoration: none;
+            }
+        }
+    }
+    .navigation__button {
+        width: 64px;
+        height: 23px;
+        background: #000000;
+        border: 1px solid #000000;
+        border-radius: 0px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+        text-align: center;
+        letter-spacing: 1.67px;
+
+        color: #FFFFFF;
+        margin-left: 15px;
+        transition: all .5s;
+        &:hover {
+            background: #fff;
+            color: #000;
+        }
+    }
+    &__info {
+        background: url(../../image/Rectangle.png) center center / cover no-repeat;
+        min-height: 830px;
+        padding: 215px 0 274px 0;
+        background-attachment: fixed;
+    }
+    &__title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 57px;
+        line-height: 67px;
+        text-align: center;
+        letter-spacing: 0.81px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    &__subtitle {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.44px;
+        color: #FFFFFF;
+        margin-top: 33px;
+    }
+    &__button_block {
+        display: flex;
+        justify-content: center;
+    }
+    .header__burger_list {
+        display: none;
+    }
+}
+.header__burger {
+    display: none;
+}

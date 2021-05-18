@@ -1,0 +1,48 @@
+.slider {
+    min-height: 514px;
+    padding: 156px 0 106px 0;
+    &__descr {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.8px;
+        color: #1B1B1B;
+        width: 329px;
+    }
+    &-img {
+        display: block;
+        margin-left: 20px;
+        margin-top: 60px;
+        &2 {
+            margin-top: 102px;
+        }
+        &3 {
+            margin-top: 75px;
+        }
+        &4 {
+            margin-top: 45px;
+        }
+        &5 {
+            margin-top: 75px;
+        }
+    }
+    .swiper-container {
+        max-width: 100%;
+    }
+    .swiper-pagination {
+        left: 50%;
+        margin-top: 34px;
+    }
+    .swiper-pagination-bullet {
+        margin: 0 5px;
+        border-radius: 0;
+        width: 10px;
+        height: 10px;
+    }
+    .swiper-pagination-bullet-active {
+        background: #000;
+    }
+}

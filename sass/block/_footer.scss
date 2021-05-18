@@ -1,0 +1,111 @@
+.footer {
+    min-height: 433px;
+    padding: 91px 0 101px 0;
+    background: #000000;
+    &__wrapper {
+        display: flex;
+    }
+    &__item {
+        width: 15%;
+        .footer__list {
+            list-style-type: none;
+            margin-top: 40px;
+        }
+        .footer__list_li {
+            a {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 15px;
+                color: #7E7E7E;
+                transition: all .5s;
+                &:hover {
+                    color: rgb(144, 168, 243);
+                    text-decoration: none;
+                }
+            }
+            &_color {
+                a {
+                    color: #fff;
+                }
+            }
+        }
+        &_title {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 20px;
+            color: #FFFFFF;
+            text-align: left;
+            margin-left: 35px;
+            &--form {
+                text-align: right;
+            }
+        }
+        &--width {
+            width: 100%;
+        }
+    }
+    &__input {
+        width: 231px;
+        height: 38px;
+        margin-left: 10px;
+        background: none;
+        border: 1px solid #fff;
+        padding-left: 30px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #7E7E7E;
+        border-right: none;
+        outline: none;
+    }
+    &__icons {
+        text-align: right;
+    }
+    &_icon {
+        fill: #fff;
+        width: 24px;
+        height: 24px;
+        margin: 0 10px;
+        margin-top: 50px;
+        &:nth-child(1) {
+            &:hover {
+                fill:  #c4302b;
+            }
+        }
+        &:nth-child(2){
+            &:hover {
+                fill: #0e76a8;
+            }
+        }
+        &:nth-child(3){
+            &:hover {
+                fill: #3b5998;
+            }
+        }
+        &:nth-child(4) {
+            &:hover {
+                fill: rgb(126, 103, 255)
+            }
+        }
+        &:nth-child(5) {
+            &:hover {
+                fill: #0e76a8;
+            }
+        }
+    }
+    &__subtitle {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: right;
+        color: #7E7E7E;
+    }
+}

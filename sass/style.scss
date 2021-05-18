@@ -1,0 +1,23 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+    &--big {
+        max-width: 1450px;
+    }
+    &--small {
+        max-width: 900px;
+    }
+}
+@import 'block/header';
+@import 'block/button';
+@import 'block/about';
+@import 'block/better';
+@import 'block/promo';
+@import 'block/founder';
+@import 'block/slider';
+@import 'block/footer';
+@import 'block/media';
